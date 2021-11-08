@@ -57,4 +57,9 @@ public class InfoActivity extends AppCompatActivity {
         startActivity(phoneIntent);
     }
 
+    public void launchDetailActivity(View view) {
+        Intent intent=new Intent(this,DetailActivity.class);
+        startActivity(intent);
+    }
+
 }
